@@ -1,0 +1,19 @@
+{
+  "name": "check-length-play-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "checkDuration": "./bin/index.js"
+  },
+  "author": "unnsin",
+  "preferGlobal": true,
+  "license": "ISC",
+  "dependencies": {
+    "ffprobe": "^1.1.0",
+    "ffprobe-static": "^3.0.0"
+  }
+}
